@@ -1,0 +1,23 @@
+{
+  "ImageId": "ami-04505e74c0741db8d",
+  "KeyName": "kuber",
+  "InstanceType": "t3.medium",
+  "BlockDeviceMappings": [
+    {
+      "DeviceName": "/dev/sda1",
+         "Ebs": {
+                  "DeleteOnTermination": true,
+                  "VolumeSize": 30,
+                  "Encrypted": false,
+                  "VolumeType": "gp2"
+                }
+    }
+  ],
+  "NetworkInterfaces": [
+    {
+      "DeviceIndex": 0,
+      "SubnetId": "subnet-19f1997c",
+      "Groups": [ "sg-07d3ca5c041bc9e70" ],
+      "AssociatePublicIpAddress": true
+    }] 
+}
