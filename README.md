@@ -7,5 +7,5 @@ aws ec2 request-spot-instances --spot-price "0.0125" --instance-count 1 --type "
 # --instance-count <number of instances you want to deploy>
 # --type "<one-time|persistent>"
 
- good 
+ good 1
   
