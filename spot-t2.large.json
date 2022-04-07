@@ -1,6 +1,6 @@
 {
     "ImageId": "ami-04505e74c0741db8d",
-    "KeyName": "kuber",
+    "KeyName": "gitlab",
     "InstanceType": "t2.large",
     "BlockDeviceMappings": [
       {
